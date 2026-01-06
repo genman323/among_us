@@ -3,7 +3,7 @@ if game.PlaceId ~= 2788229376 then
     return
 end
 
-local requiredKey = 'qCqkyJnsIdGuValXkmeYLEcN'
+local requiredKey = 'amongus460369530539323'
 local hostVar = host or getgenv().host
 local scriptKey = script_key or getgenv().script_key
 
@@ -115,7 +115,7 @@ local function handleCommand(msg)
     local text = msg:lower()
     if text == prefix .. 'setup' then
         moveToClub()
-    elseif text == prefix .. 'start' then
+    elseif text == prefix .. 'drop' then
         startDrop()
     elseif text == prefix .. 'stop' then
         stopDrop()
